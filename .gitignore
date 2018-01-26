@@ -1,0 +1,46 @@
+##########################
+# .gitignore for ENGR100 #
+##########################
+
+# This file is to ignore generated files from Quartus and ASE100
+# Pushing generated files is bad practice!
+
+###########
+# Quartus #
+###########
+
+# Generated folders #
+db/
+incremental_db/
+.qsys_edit/
+
+# Generated Files #
+
+*.ammdb
+*.cdb
+*.done
+*.hdb
+*.jdi
+*.map.*
+*.pin
+*.qws
+*.sld
+*.sof
+*.swp
+*.tdf
+.*
+!.gitignore
+
+# Reports #
+
+*.rpt
+*.smsg
+*.summary
+
+##########
+# ASE100 #
+##########
+
+*.labels
+*.mif
+!usbram.mif
